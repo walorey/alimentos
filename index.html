@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Educación Alimentaria</title>
+  <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+  <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <link href="css/all.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="css/all.css" rel="stylesheet">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+  <!--Navigation bar-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand enlace-logo" href="index.html"><img src="img/logo46x46.png" class="logo46x46"><span class="titulo-nav">EDUCACIÓN ALIMENTARIA</span></a>
+      </div>
+      <div class="collapse navbar-collapse botones-derechos" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#quienes-somos">Quienes somos</a></li>
+          <li><a href="#servicios">Nuestros servicios</a></li>
+          <li><a href="#contact">Contacto</a></li>
+          <li class="btn-trial"><a href="#" data-target="#login" data-toggle="modal">Ingreso al curso</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Navigation bar-->
+  <!--Modal box-->
+  <div class="modal fade" id="login" role="dialog">
+    <div class="modal-dialog modal-sm">
+
+      <!-- Modal content no 1-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title text-center form-title">Iniciar sesión</h4>
+        </div>
+        <div class="modal-body padtrbl">
+
+          <div class="login-box-body">
+            <p class="login-box-msg">Iniciar sesión para ingresar al campus</p>
+            <div class="form-group">
+              <form name="" id="loginForm">
+                <div class="form-group has-feedback">
+                  <!----- username -------------->
+                  <input class="form-control" placeholder="Email" id="loginid" type="text" autocomplete="off" />
+                  <span style="display:none;font-weight:bold; position:absolute;color: red;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;" id="span_loginid"></span>
+                  <!---Alredy exists  ! -->
+                  <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                </div>
+                <div class="form-group has-feedback">
+                  <!----- password -------------->
+                  <input class="form-control" placeholder="Contraseña" id="loginpsw" type="password" autocomplete="off" />
+                  <span style="display:none;font-weight:bold; position:absolute;color: grey;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;" id="span_loginpsw"></span>
+                  <!---Alredy exists  ! -->
+                  <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="checkbox icheck">
+                      <label>
+                                <input type="checkbox" id="loginrem" > Recordarme
+                              </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <button type="button" class="btn btn-green btn-block btn-flat" onclick="userlogin()">Iniciar sesión</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--/ Modal box-->
+  <!--Banner-->
+  <div class="banner">
+    <div class="bg-color fondo-portada">
+      <div class="container">
+        <div class="row">
+          <div class="banner-text text-center">
+            <div class="text-border logo-banner">
+              <img src="img/logo-portada.png">
+            </div>
+            <div class="intro-para text-center quote">
+              <p class="big-text titulo-banner"><b>EDUCACIÓN ALIMENTARIA</b></p>
+              <p class="small-text leyenda-banner"><b>Asesoramiento integral bromatológico para comercio gastronómico e industria frigorífica y alimenticia.</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Banner-->
+  <!--Feature-->
+  <section id="quienes-somos" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>Quienes somos</h2>
+          <p>Somos una empresa dedicada al asesoramiento bromatológico y educación en materia de seguridad alimentaria, que brinda el servicio a rubros gastronómicos, panificadoras, industrias alimenticias y frigoríficas, supermercados y centros de distribución de alimentos.</p>
+          <p>Nuestro equipo se encuentra conformado por un grupo profesional de Bromatólogos, Tecnólogos en Alimentos y veterinarios, de trayectoria en la industria privada y en organizaciones gubernamentales contralores de alimentos como por ejemplo SENASA, Bromatologías municipales y provinciales.</p>
+          <p>Entendemos que la seguridad alimentaria y la calidad de los productos fundamentalmente se logran a través de una contínua capacitación y educación, desde el productor primario hasta la mesa. </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--/ feature-->
+
+  <section id="servicios" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>Nuestros servicios</h2>
+          <hr class="bottom-line">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-3 col-xs-12 padleft-right carta-servicios">
+          <div class="card" style="width: 28rem;">
+              <img class="card-img-top img-responsive" src="img/b.jpg" alt="Card image cap" >
+              <div class="card-body">
+                <h5 class="card-title">CURSO OFICIAL DE MANIPULACIÓN DE ALIMENTOS</h5>
+                <p class="card-text">Como pilar fundamental de nuestra consultora, ofrecemos el servicio del <b>dictado de Curso oficial de Manipulación de Alimentos</b> validado por la Provincia de Buenos Aires, el cual es exigible para la obtención de las libretas sanitarias y en cumplimiento del Artículo 21 del Código Alimentario Argentino.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-xs-12 padleft-right carta-servicios">
+          <div class="card" style="width: 28rem;">
+              <img class="card-img-top img-responsive" src="img/d.jpg" alt="Card image cap" >
+              <div class="card-body">
+                <h5 class="card-title">CHARLAS Y TALLERES DE MANIPULACIÓN DE ALIMENTOS</h5>
+                <p class="card-text">Ofrecemos el <b>armado de talleres y charlas de manipulación de alimentos</b>, ofreciéndolos a entidades públicas,  centros de educación, centros de salud, comedores y merenderos.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-xs-12 padleft-right carta-servicios">
+          <div class="card" style="width: 28rem;">
+              <img class="card-img-top img-responsive" src="img/i.jpg" alt="Card image cap" >
+              <div class="card-body">
+                <h5 class="card-title">CAPACITACIÓN Y ASESORAMIENTO A CÁMARAS COMERCIALES</h5>
+                <p class="card-text">Ofrecemos nuestro servicio de <b>Capacitación alimentaria</b> a Cámaras empresariales y comerciales, además de otras organizaciones.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-xs-12 padleft-right carta-servicios">
+          <div class="card" style="width: 28rem;">
+              <img class="card-img-top img-responsive" src="img/a.jpg" alt="Card image cap" >
+              <div class="card-body">
+                <h5 class="card-title">DESARROLLO DE ROTULO Y ETIQUETA DE PRODUCTO</h5>
+                <p class="card-text"><b>Realizamos el desarrollo de la etiqueta y rotulado nutricional del producto alimenticio</b>. En cumplimiento al código alimentario argentino y otros, para poder comercializar el producto de forma apta.</p>
+              </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-3 col-xs-12 padleft-right carta-servicios">
+          <div class="card" style="width: 28rem;">
+              <img class="card-img-top img-responsive" src="img/j.jpg" alt="Card image cap" >
+              <div class="card-body">
+                <h5 class="card-title">ASISTENCIA TÉCNICA GESTIÓN DE RNE Y RNPA</h5>
+                <p class="card-text">Asistimos bromatológicamente en la obtención de los trámites de inscripción de productos <b>RNPA</b> (Registro nacional de producto alimenticio) y <b>RNE</b> (Registro nacional de establecimientos), para el funcionamiento de la industria y la comercialización de los productos alimenticios.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-xs-12 padleft-right carta-servicios">
+          <div class="card" style="width: 28rem;">
+              <img class="card-img-top img-responsive" src="img/f.jpg" alt="Card image cap" >
+              <div class="card-body">
+                <h5 class="card-title">AUDITORIA BROMATOLÓGICA INTEGRAL</h5>
+                <p class="card-text">Ofrecemos el <b>servicio de auditoría integral bromatológica</b> a cadenas gastronómicas, con el objetivo de controlar la condición higiénica de los establecimientos y cumplir con la calidad óptima. Contamos con convenio con laboratorios reconocidos para realizar los análisis de aguas y de alimentos.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-xs-12 padleft-right carta-servicios">
+          <div class="card" style="width: 28rem;">
+              <img class="card-img-top img-responsive" src="img/e.jpg" alt="Card image cap" >
+              <div class="card-body">
+                <h5 class="card-title">DIRECCIÓN TÉCNICA</h5>
+                <p class="card-text">Ofrecemos el servicio de <b>Dirección Técnica</b> de establecimientos que lo requieran, por ejemplo, elaboración de <b>productos para celíacos, diabéticos y otros comprendidos en tales rubros</b>.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-xs-12 padleft-right carta-servicios">
+          <div class="card" style="width: 28rem;">
+              <img class="card-img-top img-responsive" src="img/profesionales.jpg" alt="Card image cap" >
+              <div class="card-body">
+                <h5 class="card-title">CARTERA DE CONTACTOS PROFESIONALES</h5>
+                <p class="card-text">Contamos con una <b>cartera amplia de profesionales</b> que realicen trámites de gestoría municipal, temas ambientales y de seguridad laboral.</p>
+              </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+  </section>
+
+  <!--/ servicios-->
+
+
+ <!-- Contact Section -->
+  <section class="section-padding" id="contact">
+    <div class="container">
+    <!-- Contact Section Form -->
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>Contactanos</h2>
+          <p>Dejanos tu consulta y a la brevedad te responderemos!</p>
+          <hr class="bottom-line">
+        </div>
+        <form name="sentMessage" id="contactForm" novalidate="novalidate" method="post" action="mail/contact_me.php">
+          <div class="col-md-6 col-sm-6 col-xs-12 left">
+            <div class="form-group">
+              <input class="form-control" id="name" type="text" placeholder="Nombre" required="required" data-validation-required-message="Please enter your name.">
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+                <input class="form-control" id="email" type="email" placeholder="Correo eléctronico" required="required" data-validation-required-message="Please enter your email address.">
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+                <input class="form-control" id="phone" type="tel" placeholder="Número de teléfono" required="required" data-validation-required-message="Please enter your phone number.">
+              <div class="validation"></div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6 col-xs-12 right">
+            <div class="form-group">
+              <textarea class="form-control" id="message" rows="5" placeholder="Tu mensaje" required="required" data-validation-required-message="Please enter a message."></textarea>
+              <div class="validation"></div>
+            </div>
+          </div>
+
+          <div class="col-xs-12">
+            <!-- Button -->
+            <button type="submit" class="form contact-form-button light-form-button oswald light" id="sendMessageButton">Enviar</button>
+          </div>
+
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!--Footer-->
+  <footer id="footer" class="footer">
+    <div class="container text-center">
+
+      <ul class="social-links">
+<!--         <li><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+        <li><a href="#"><i class="fab fa-facebook fa-fw"></i></a></li> -->
+        <li><a href="https://www.instagram.com/edu.alimentaria/"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+  <!--/ Footer-->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+
+    <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+</body>
+
+</html>

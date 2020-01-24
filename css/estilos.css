@@ -1,0 +1,56 @@
+.titulo-nav{
+	display: inline;
+	font-size: 31px;
+}
+
+.logo46x46{
+	display: inline!important;
+}
+
+.enlace-logo{
+	margin-top: 20px;
+}
+
+.botones-derechos{
+	margin-top: 10px;
+}
+
+.fondo-portada{
+	background-color: rgba(78, 78, 74, 0.4)!important;
+}
+
+.titulo-banner{
+	color: #212121!important;
+	font-size: 55px!important;
+	text-shadow: 0 0 15px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 1px 4px 14px rgb(255, 255, 255);
+}
+
+.leyenda-banner{
+	color: #212121!important;
+	font-size: 25px!important;
+	text-shadow: 0 0 15px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 1px 4px 14px rgb(255, 255, 255);
+}
+
+.logo-banner{
+	border: 0px!important;
+}
+
+@media (max-width: 450px) and (min-width: 320px) {
+	.titulo-nav{
+		display: none;
+	}
+
+	.navbar-default .enlace-logo{
+		margin: 0!important;
+	}
+
+	.logo46x46{
+		margin: 12px;
+		padding:0px;
+	}
+
+	.carta-servicios{
+		padding-left: 20px!important;
+		padding-right: 0px!important;
+	}
+}
